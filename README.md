@@ -12,6 +12,7 @@ This project aims to develop and evaluate **LSTM-based time series models** for 
 - [Technologies](#technologies)
 
 ## Dataset Used
+https://drive.google.com/drive/folders/1jNMQ5BJz_GAjjopaVB2mdefU_yW1Hst8?usp=sharing
 
 - Dataset source / description
 - Stocks used: AAPL and AMD

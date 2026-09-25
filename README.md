@@ -4,6 +4,8 @@ This project focuses on forecasting daily stock closing prices for **AAPL** and 
 
 ## Objective
 
+This project aims to develop and evaluate **LSTM-based time series models** for forecasting daily stock closing prices of **AAPL** and **AMD** using historical stock price data. A baseline LSTM and modified architectures were developed and compared based on **RMSE, MAE, and MAPE**.
+
 ## Table of Contents
 - [Dataset Used](#dataset-used)
 - [Methodology](#methodology)

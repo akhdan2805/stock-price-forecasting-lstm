@@ -12,13 +12,15 @@ This project aims to develop and evaluate **LSTM-based time series models** for 
 - [Technologies](#technologies)
 
 ## Dataset Used
-https://drive.google.com/drive/folders/1jNMQ5BJz_GAjjopaVB2mdefU_yW1Hst8?usp=sharing
 
-- Dataset source / description
-- Stocks used: AAPL and AMD
-- Features used: Date and Close
-- Dataset period
-- Number of records for each stock
+The [dataset](https://drive.google.com/drive/folders/1jNMQ5BJz_GAjjopaVB2mdefU_yW1Hst8?usp=sharing) contains historical daily stock price data for technology-sector companies, sourced from **Yahoo Finance**. The data includes Date, Open, High, Low, Close, Adj Close, and Volume. :contentReference[oaicite:0]{index=0}
+
+For this project, **AAPL** and **AMD** were selected, with only the **Date** and **Close** columns used for stock price forecasting.
+
+| Stock | Records | Period |
+|---|---:|---|
+| AAPL | 9,909 | Dec 1980 – Apr 2020 |
+| AMD | 10,098 | Mar 1980 – Apr 2020 |
 
 ## Methodology
 

@@ -13,7 +13,7 @@ This project aims to develop and evaluate **LSTM-based time series models** for 
 
 ## Dataset Used
 
-The [dataset](https://drive.google.com/drive/folders/1jNMQ5BJz_GAjjopaVB2mdefU_yW1Hst8?usp=sharing) contains historical daily stock price data for technology-sector companies, sourced from **Yahoo Finance**. The data includes Date, Open, High, Low, Close, Adj Close, and Volume. :contentReference[oaicite:0]{index=0}
+The [dataset](https://drive.google.com/drive/folders/1jNMQ5BJz_GAjjopaVB2mdefU_yW1Hst8?usp=sharing) contains historical daily stock price data for technology-sector companies, sourced from **Yahoo Finance**. The data includes Date, Open, High, Low, Close, Adj Close, and Volume.
 
 For this project, **AAPL** and **AMD** were selected, with only the **Date** and **Close** columns used for stock price forecasting.
 

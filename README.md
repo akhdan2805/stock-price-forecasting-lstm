@@ -1,0 +1,95 @@
+# 📈 Stock Price Forecasting using LSTM
+
+[Short project description]
+[Optional: Full Code with Output link]
+
+## Objective
+
+## Table of Contents
+- [Dataset Used](#dataset-used)
+- [Methodology](#methodology)
+- [Model Architecture](#model-architecture)
+- [Results](#results)
+- [Technologies](#technologies)
+
+## Dataset Used
+
+- Dataset source / description
+- Stocks used: AAPL and AMD
+- Features used: Date and Close
+- Dataset period
+- Number of records for each stock
+
+## Methodology
+
+### 1. Data Loading & Inspection
+- Load AAPL and AMD
+- Select Date and Close
+- Check data structure / missing values
+
+### 2. Exploratory Data Analysis
+- Historical closing price visualization
+- Time-series characteristics
+
+### 3. Train-Test Split
+- Last 1 year → test set
+- Remaining historical data → training set
+
+### 4. Scaling & Windowing
+- Min-Max Scaling
+- Window size = 5
+- Horizon = 1
+
+### 5. Train-Validation Split
+- 90% training
+- 10% validation
+
+### 6. Model Development
+- Baseline LSTM
+- Modified LSTM
+
+### 7. Model Training
+- Optimizer
+- Loss function
+- Training configuration
+- EarlyStopping / ReduceLROnPlateau
+
+### 8. Evaluation
+- RMSE
+- MAE
+- MAPE
+
+## Model Architecture
+
+### Baseline LSTM
+- LSTM 50 units
+- ReLU
+- Dense 1
+
+### Modified LSTM
+- AAPL architecture
+- AMD architecture
+- Architectural differences from baseline
+
+## Results
+
+### AAPL Results
+[Baseline vs Modified]
+
+### AMD Results
+[Baseline vs Modified]
+
+### Model Comparison
+| Stock | Model | MAE | RMSE | MAPE |
+|---|---|---:|---:|---:|
+| AAPL | Baseline | ... | ... | ... |
+| AAPL | Modified | ... | ... | ... |
+| AMD | Baseline | ... | ... | ... |
+| AMD | Modified | ... | ... | ... |
+
+## Technologies
+
+- **Language:** Python
+- **Deep Learning:** TensorFlow / Keras
+- **Data Processing:** Pandas, NumPy, Scikit-learn
+- **Visualization:** Matplotlib

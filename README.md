@@ -13,6 +13,17 @@ This project aims to develop and evaluate **LSTM-based time series models** for 
 
 ## Dataset Used
 
+The [dataset](https://drive.google.com/drive/folders/1jNMQ5BJz_GAjjopaVB2mdefU_yW1Hst8?usp=sharing) contains historical daily stock price data for **AAPL** and **AMD**, sourced from [**Yahoo Finance**](https://finance.yahoo.com/quote/AAPL/history/?utm_source=chatgpt.com&frequency=1d&period1=345479400&period2=1790346095). The original data includes Date, Open, High, Low, Close, Adj Close, and Volume.
+
+For this project, only the **Date** and **Close** columns were used for stock price forecasting.
+
+| Stock | Records | Period |
+|---|---:|---|
+| AAPL | 9,909 | Dec 1980 – Apr 2020 |
+| AMD | 10,098 | Mar 1980 – Apr 2020 |
+
+## Dataset Used
+
 The [dataset](https://drive.google.com/drive/folders/1jNMQ5BJz_GAjjopaVB2mdefU_yW1Hst8?usp=sharing) contains historical daily stock price data for technology-sector companies, sourced from **Yahoo Finance**. The data includes Date, Open, High, Low, Close, Adj Close, and Volume.
 
 For this project, **AAPL** and **AMD** were selected, with only the **Date** and **Close** columns used for stock price forecasting.

@@ -1,7 +1,6 @@
 # 📈 Stock Price Forecasting using LSTM
 
-[Short project description]
-[Optional: Full Code with Output link]
+This project focuses on forecasting daily stock closing prices for **AAPL** and **AMD** using LSTM-based time series models. A baseline LSTM and modified architectures were developed and evaluated using historical stock price data.
 
 ## Objective
 

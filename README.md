@@ -24,7 +24,7 @@ For this project, only the **Date** and **Close** columns were used for stock pr
 ## Methodology
 
 ### 1. Data Loading & Inspection
-The** AAPL** and **AMD** datasets were loaded and inspected to understand their structure and data types. The **Date** column was converted to datetime format and set as the time-series index, while **Date** and **Close** were selected for the forecasting process.
+The **AAPL** and **AMD** datasets were loaded and inspected to understand their structure and data types. The **Date** column was converted to datetime format and set as the time-series index, while **Date** and **Close** were selected for the forecasting process.
 
 ### 2. Exploratory Data Analysis
 The closing price trends of **AAPL** and **AMD** were visualized over time to examine their historical price movements and overall time-series patterns before model development.
